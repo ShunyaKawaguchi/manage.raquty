@@ -1,0 +1,218 @@
+.LOGIN{
+    font-family: Audiowide;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+
+    form{
+        font-family: Inter;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .LOGIN{
+        width: 60vw;
+        height: 70vh;
+        margin: 15vh 20vw;
+        text-align: center;
+
+        .top{
+            width: 100%;
+            padding: 60px 0;
+            font-size: 26px;
+        }
+        .Login_Form{
+            width: 100%;
+
+            .login_notice{
+                width: 100%;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: 30px;
+                color: red;
+                animation: loginFailureAnimation 0.5s ease-in-out;
+            }
+            @keyframes loginFailureAnimation {
+                0%, 100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                25%, 75% {
+                    transform: translateX(-10px);
+                    opacity: 0.8;
+                }
+                50% {
+                    transform: translateX(10px);
+                    opacity: 0.6;
+                }
+            }
+            .wrap{
+                width: 100%;
+
+                label{
+                    width: 150px;
+                }
+                input{
+                    width: 500px;
+                    padding: 5px 10px;
+                }
+                input[type='submit']{
+                    margin: 20px 0;
+                    width: 100px;
+                }
+            }
+        }
+        .forget{
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+
+            a{
+                color: blue;
+                text-decoration:underline;
+            }
+        }
+        .notice{
+            width: 100%;
+            margin: 60px 0;
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {
+    .LOGIN{
+        width: 80vw;
+        height: 70vh;
+        margin: 15vh 10vw;
+        text-align: center;
+
+        .top{
+            width: 100%;
+            padding: 60px 0;
+            font-size: 26px;
+        }
+        .Login_Form{
+            width: 100%;
+
+            .login_notice{
+                width: 100%;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: 30px;
+                color: red;
+                animation: loginFailureAnimation 0.5s ease-in-out;
+            }
+            @keyframes loginFailureAnimation {
+                0%, 100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                25%, 75% {
+                    transform: translateX(-10px);
+                    opacity: 0.8;
+                }
+                50% {
+                    transform: translateX(10px);
+                    opacity: 0.6;
+                }
+            }
+            .wrap{
+                width: 100%;
+
+                label{
+                    width: 150px;
+                }
+                input{
+                    width: 300px;
+                    padding: 5px 10px;
+                }
+                input[type='submit']{
+                    margin: 20px 0;
+                    width: 100px;
+                }
+            }
+        }
+        .forget{
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+
+            a{
+                color: blue;
+                text-decoration:underline;
+            }
+        }
+        .notice{
+            width: 100%;
+            margin: 60px 0;
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width: 439px) {
+    .LOGIN{
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+
+        .top{
+            width: 100%;
+            padding: 60px 0;
+            font-size: 26px;
+        }
+        .Login_Form{
+            width: 100%;
+
+            .login_notice{
+                width: 100%;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: 30px;
+                color: red;
+                animation: loginFailureAnimation 0.5s ease-in-out;
+            }
+            @keyframes loginFailureAnimation {
+                0%, 100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                25%, 75% {
+                    transform: translateX(-10px);
+                    opacity: 0.8;
+                }
+                50% {
+                    transform: translateX(10px);
+                    opacity: 0.6;
+                }
+            }
+            .wrap{
+                width: 100%;
+
+                label{
+                    width: 150px;
+                }
+                input{
+                    width: 200px;
+                    padding: 5px 10px;
+                }
+                input[type='submit']{
+                    margin: 20px 0;
+                    width: 100px;
+                }
+            }
+        }
+        .forget{
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+
+            a{
+                color: blue;
+                text-decoration:underline;
+            }
+        }
+        .notice{
+            width: 100%;
+            margin: 60px 0;
+            font-size: 14px;
+        }
+    }
+}

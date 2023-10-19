@@ -1,0 +1,265 @@
+
+@media screen and (min-width: 960px) {
+    .Tournament_List{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .search_tournament{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+                }
+            }   
+            .tournament_list_value{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px;
+                    overflow-x: scroll;
+
+                    table{
+                        border-collapse: collapse;
+                        font-size: 14px;
+    
+                        th, td {
+                            border: 1px solid #ccc;
+                            text-align: left;
+                            padding: 8px;
+                            text-align: center;
+                        }
+                        
+                        th:first-child, td:first-child {
+                            width: 30px;
+                        }
+                        
+                        th:nth-child(2), td:nth-child(2) {
+                            width: 500px;
+
+                            a{
+                                color: #0077cc;
+                            }
+                            a:hover {
+                                color: #0055aa;
+                            }
+                        }
+                        
+                        th:nth-child(3), td:nth-child(3) {
+                            width: 250px;
+                        }
+                        
+                        th:nth-child(4), td:nth-child(4) {
+                            width: 80px;
+                        }
+                        th:nth-child(5), td:nth-child(5) {
+                            width: 80px;
+                        }
+                        th:nth-child(6), td:nth-child(6) {
+                            width: 70px;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {
+    .Tournament_List{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .search_tournament{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+                }
+            }   
+            .tournament_list_value{
+                margin: 10px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px 5px;
+                    overflow-x: scroll;
+
+                    table{
+                        border-collapse: collapse;
+                        font-size: 14px;
+
+    
+                        th, td {
+                            border: 1px solid #ccc;
+                            text-align: left;
+                            padding: 8px;
+                            text-align: center;
+                        }
+                        
+                        th:first-child, td:first-child {
+                            width: 30px;
+                        }
+                        
+                        th:nth-child(2), td:nth-child(2) {
+                            width: 500px;
+
+                            a{
+                                color: #0077cc;
+                            }
+                            a:hover {
+                                color: #0055aa;
+                            }
+                        }
+                        
+                        th:nth-child(3), td:nth-child(3) {
+                            width: 250px;
+                        }
+                        
+                        th:nth-child(4), td:nth-child(4) {
+                            width: 80px;
+                        }
+                        th:nth-child(5), td:nth-child(5) {
+                            width: 80px;
+                        }
+                        th:nth-child(6), td:nth-child(6) {
+                            width: 70px;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
+@media screen and (max-width: 439px) {
+    .Tournament_List{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .search_tournament{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+                }
+            }   
+            .tournament_list_value{
+                margin: 5px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px 5px; 
+                    overflow-x: scroll;
+
+                    table{
+                        border-collapse: collapse;
+                        font-size: 14px;
+                        width: 100%;
+                        overflow-x: scroll;
+    
+                        th, td {
+                            border: 1px solid #ccc;
+                            text-align: left;
+                            padding: 8px;
+                            text-align: center;
+                        }
+                        
+                        th:first-child, td:first-child {
+                            width: 30px;
+                        }
+                        
+                        th:nth-child(2), td:nth-child(2) {
+                            width: 500px;
+
+                            a{
+                                color: #0077cc;
+                            }
+                            a:hover {
+                                color: #0055aa;
+                            }
+                        }
+                        
+                        th:nth-child(3), td:nth-child(3) {
+                            width: 250px;
+                        }
+                        
+                        th:nth-child(4), td:nth-child(4) {
+                            width: 80px;
+                        }
+                        th:nth-child(5), td:nth-child(5) {
+                            width: 80px;
+                        }
+                        th:nth-child(6), td:nth-child(6) {
+                            width: 70px;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}

@@ -1,0 +1,66 @@
+
+@media screen and (min-width: 960px) {
+    .Venue_List{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .venue_listing{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    display: flex;
+                    vertical-align: middle;
+                }
+                .wrap{
+                    margin: 10px;
+
+                    .block{
+                        
+                        table{
+                            border-collapse: collapse;
+                            font-size: 14px;
+        
+                            th, td {
+                                border: 1px solid #ccc;
+                                text-align: left;
+                                padding: 8px;
+                                text-align: center;
+                            }
+                            
+                            th:first-child, td:first-child {
+                                width: 30px;
+                            }
+                            
+                            th:nth-child(2), td:nth-child(2) {
+                                width: 400px;
+                            }
+                            
+                            th:nth-child(3), td:nth-child(3) {
+                                width: 550px;
+                            }
+                            
+                            th:nth-child(4), td:nth-child(4) {
+                                width: 80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {}
+@media screen and (max-width: 439px) {}

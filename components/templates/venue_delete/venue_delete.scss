@@ -1,0 +1,75 @@
+
+@media screen and (min-width: 960px) {
+    .Venue_Delete{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .Delete_venue{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+
+                    .block{
+                        
+                        form{
+            
+                            .section{
+                                margin: 20px 10px;
+                                font-family: Audiowide;
+
+                                p{
+                                    font-size: 14px;
+                                    padding: 5px;
+                                    margin: 5px 10px;
+                                }
+                                .Not_Correct_PW{
+                                    font-size: 14px;
+                                    color: red;
+                                    padding: 5px;
+                                    margin: 5px 10px;
+                                }
+                            }
+                            .section_2{
+                                display: flex;
+                                justify-content: flex-end;
+
+                                input{
+                                    margin: 10px 20px;
+                                    padding: 5px;
+                                }
+                            }
+                            label{
+                                font-size: 14px;
+                                margin: 5px 10px;
+                            }
+                            input[type='password']{
+                                width: 300px;
+                                padding: 5px;
+                                margin: 5px 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {}
+@media screen and (max-width: 439px) {}

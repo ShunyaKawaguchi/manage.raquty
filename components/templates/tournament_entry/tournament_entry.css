@@ -1,0 +1,183 @@
+@media screen and (min-width: 960px) {
+  .Tournament_Entry {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Entry .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Entry .main_contents .Entry_List {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Entry .main_contents .Entry_List .Event_Name {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    vertical-align: middle;
+  }
+  .Tournament_Entry .main_contents .Entry_List .Event_Detail {
+    margin: 10px;
+    font-size: 14px;
+  }
+  .Tournament_Entry .main_contents .Entry_List .Display_List {
+    cursor: pointer;
+  }
+  .Tournament_Entry .main_contents .Entry_List table {
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th, .Tournament_Entry .main_contents .Entry_List table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:first-child, .Tournament_Entry .main_contents .Entry_List table td:first-child {
+    width: 30px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(2), .Tournament_Entry .main_contents .Entry_List table td:nth-child(2) {
+    width: 150px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(3), .Tournament_Entry .main_contents .Entry_List table td:nth-child(3) {
+    width: 250px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(4), .Tournament_Entry .main_contents .Entry_List table td:nth-child(4) {
+    width: 300px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(5), .Tournament_Entry .main_contents .Entry_List table td:nth-child(5) {
+    width: 120px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(6), .Tournament_Entry .main_contents .Entry_List table td:nth-child(6) {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 959px) and (min-width: 440px) {
+  .Tournament_Entry {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Entry .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Entry .main_contents .Entry_List {
+    margin: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Entry .main_contents .Entry_List .Event_Name {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    vertical-align: middle;
+  }
+  .Tournament_Entry .main_contents .Entry_List .Event_Detail {
+    margin: 10px;
+    font-size: 14px;
+  }
+  .Tournament_Entry .main_contents .Entry_List .Display_List {
+    cursor: pointer;
+  }
+  .Tournament_Entry .main_contents .Entry_List table {
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th, .Tournament_Entry .main_contents .Entry_List table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:first-child, .Tournament_Entry .main_contents .Entry_List table td:first-child {
+    width: 30px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(2), .Tournament_Entry .main_contents .Entry_List table td:nth-child(2) {
+    width: 150px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(3), .Tournament_Entry .main_contents .Entry_List table td:nth-child(3) {
+    width: 250px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(4), .Tournament_Entry .main_contents .Entry_List table td:nth-child(4) {
+    width: 300px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(5), .Tournament_Entry .main_contents .Entry_List table td:nth-child(5) {
+    width: 120px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(6), .Tournament_Entry .main_contents .Entry_List table td:nth-child(6) {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .Tournament_Entry {
+    width: 100vw;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Entry .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Entry .main_contents .Entry_List {
+    margin: 5px;
+    padding: 20px 10px;
+    width: calc(100% - 30px);
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Entry .main_contents .Entry_List .Event_Name {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    vertical-align: middle;
+  }
+  .Tournament_Entry .main_contents .Entry_List .Event_Detail {
+    margin: 10px;
+    font-size: 14px;
+  }
+  .Tournament_Entry .main_contents .Entry_List .Display_List {
+    cursor: pointer;
+  }
+  .Tournament_Entry .main_contents .Entry_List table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th, .Tournament_Entry .main_contents .Entry_List table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:first-child, .Tournament_Entry .main_contents .Entry_List table td:first-child {
+    width: 30px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(2), .Tournament_Entry .main_contents .Entry_List table td:nth-child(2) {
+    width: 150px;
+    display: none;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(3), .Tournament_Entry .main_contents .Entry_List table td:nth-child(3) {
+    width: 300px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(4), .Tournament_Entry .main_contents .Entry_List table td:nth-child(4) {
+    width: 250px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(5), .Tournament_Entry .main_contents .Entry_List table td:nth-child(5) {
+    width: 100px;
+  }
+  .Tournament_Entry .main_contents .Entry_List table th:nth-child(6), .Tournament_Entry .main_contents .Entry_List table td:nth-child(6) {
+    width: 70px;
+  }
+}

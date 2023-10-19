@@ -1,0 +1,158 @@
+
+@media screen and (min-width: 960px) {
+    .Tournament_Edit_Menu{
+        padding: 10px;    
+        background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        display: flex;
+        align-items: center;
+
+        .half{
+            display: flex;
+            font-size: 14px;
+
+            .sub_title{
+                margin: 0 20px;
+                font-weight: 600;
+            }
+            
+        }
+
+        .half:first-child {
+            width: 60%;
+
+            .wrap{
+                display: flex;
+                margin: 0 10px;
+
+                .menu{
+                    padding: 0 15px;
+                    cursor: pointer;
+
+                    a{
+                        color: rgba(0, 0, 0, 0.7);
+                    }
+                }
+                .menu:hover{
+                    border-bottom:1px solid #ccc ;
+                }
+            }
+        }
+        
+        .half:nth-child(2) {
+            width: 40%;
+
+            .wrap{
+                display: flex;
+                justify-content: center;
+                margin: 0 10px;
+            }
+        }
+    }
+        
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {
+    .Tournament_Edit_Menu{
+        padding: 10px 5px;    
+        background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .half{
+            display: flex;
+            font-size: 12px;
+            margin: 5px 0;
+
+            .sub_title{
+                margin: 0 20px;
+                font-weight: 600;
+            }
+            
+        }
+
+        .half:first-child {
+            width: 100%;
+
+            .wrap{
+                display: flex;
+                margin: 0 10px;
+
+                .menu{
+                    padding: 0 15px;
+                    cursor: pointer;
+
+                    a{
+                        color: rgba(0, 0, 0, 0.7);
+                    }
+                }
+                .menu:hover{
+                    border-bottom:1px solid #ccc ;
+                }
+            }
+        }
+        
+        .half:nth-child(2) {
+            width: 100%;
+
+            .wrap{
+                display: flex;
+                justify-content: center;
+                margin: 0 10px;
+            }
+        }
+    }
+        
+}
+@media screen and (max-width: 439px) {
+    .Tournament_Edit_Menu{
+        padding: 10px 0;    
+        background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .half{
+            display: flex;
+            font-size: 12px;
+            margin: 5px 0;
+
+            .sub_title{
+                margin: 0 20px;
+                font-weight: 600;
+            }
+            
+        }
+
+        .half:first-child {
+            width: 100%;
+
+            .wrap{
+                display: flex;
+                margin: 0;
+
+                .menu{
+                    padding: 0 5px;
+                    cursor: pointer;
+
+                    a{
+                        color: rgba(0, 0, 0, 0.7);
+                    }
+                }
+                .menu:hover{
+                    border-bottom:1px solid #ccc ;
+                }
+            }
+        }
+        
+        .half:nth-child(2) {
+            width: 100%;
+
+            .wrap{
+                display: flex;
+                justify-content: center;
+                margin: 0 10px;
+            }
+        }
+    }
+        
+}

@@ -1,0 +1,82 @@
+
+@media screen and (min-width: 960px) {
+    .Tools{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+        
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .Venue_Select{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .title_wrap{
+                    display: flex;
+
+                    .sub_title{
+                        margin: 0 10px;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+
+                    .block{
+                        margin: 2.5px;
+                        padding: 2.5px 10px;
+
+                        span{
+                            font-size: 12px;
+                        }
+                        .submit_wrap{
+                            display: flex;
+                            justify-content: flex-end;
+                            margin: 20px 30px 10px 30px;
+
+                            input[type='submit']{
+                                margin: 0 10px;
+                                padding: 10px 20px;
+                                border-radius: 5px;
+                                border: 1px solid #000;
+                                cursor: pointer;
+                            }
+                        }
+                        .about{
+                            font-size: 16px;
+                            padding: 5px 0;
+                            font-weight: 600;
+                        }
+                        .about_value{
+                            margin: 15px 20px;
+
+                            select{
+                                width: 150px;
+                                padding: 5px;
+                                margin: 5px 15px;
+                                text-align: center;
+    
+                            }
+                            p{
+                                font-size: 14px;
+                            }
+                            input[type='submit']{
+                                margin: 20px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {}
+@media screen and (max-width: 439px) {}

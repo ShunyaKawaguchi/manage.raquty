@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@media screen and (min-width: 960px) {
+  .Tournament_edit_information {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_edit_information .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_edit_information .main_contents .basic_information {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_edit_information .main_contents .basic_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_edit_information .main_contents .basic_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .submit_wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 10px 30px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .submit_wrap input[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value p {
+    font-size: 14px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value input[type='text'] {
+    padding: 5px;
+    width: 100%;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value input[type='date'] {
+    padding: 5px;
+    width: 150px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value textarea {
+    padding: 5px;
+    width: 60%;
+    height: 200px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value select {
+    padding: 5px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .venues_wrap {
+    background-color: white;
+    width: 30%;
+    padding: 5px;
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #000;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .venues_wrap .venue_option {
+    width: 90%;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value #calendar {
+    width: 200px;
+    /* 幅を200pxに変更 */
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    /* パディングを8pxに変更 */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value #prevMonth,
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value #nextMonth {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    /* パディングを4px上下、8px左右に変更 */
+    cursor: pointer;
+    font-size: 12px;
+    /* 文字サイズを12pxに変更 */
+    border-radius: 3px;
+    outline: none;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value #prevMonth:hover,
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value #nextMonth:hover {
+    background-color: #444;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value h1 {
+    margin: 0;
+    font-size: 16px;
+    /* 文字サイズを16pxに変更 */
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table {
+    width: 100%;
+    /* カレンダー全体の幅を100%に変更 */
+    border-collapse: collapse;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table th, .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table td {
+    width: calc(100% / 7);
+    /* 幅を均等に分割する */
+    padding: 4px;
+    /* パディングを4pxに変更 */
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    /* 文字サイズを12pxに変更 */
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table td {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table td.selected {
+    background-color: #66a3ff;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table td.selected:hover {
+    background-color: #66a3ff;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value table td:hover {
+    background-color: #f2f2f2;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .prev-month, .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .next-month {
+    color: #ccc;
+  }
+  .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .prev-month:hover, .Tournament_edit_information .main_contents .basic_information .wrap .block .about_value .next-month:hover {
+    background-color: transparent;
+    color: #888;
+  }
+}

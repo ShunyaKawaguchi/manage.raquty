@@ -1,0 +1,183 @@
+@media screen and (min-width: 960px) {
+  .Entry_About {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Entry_About .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Entry_About .main_contents .Entry_information {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Entry_About .main_contents .Entry_information .title_wrap {
+    display: flex;
+  }
+  .Entry_About .main_contents .Entry_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Entry_About .main_contents .Entry_information .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block span {
+    font-size: 12px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .submit_wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 10px 30px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .submit_wrap input[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about {
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 600;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about_value .info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 959px) and (min-width: 440px) {
+  .Entry_About {
+    width: 100vw;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Entry_About .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Entry_About .main_contents {
+    width: 100%;
+  }
+  .Entry_About .main_contents .Entry_information {
+    width: calc(100% - 60px);
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Entry_About .main_contents .Entry_information .title_wrap {
+    display: flex;
+  }
+  .Entry_About .main_contents .Entry_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Entry_About .main_contents .Entry_information .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block span {
+    font-size: 12px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .submit_wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 10px 30px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .submit_wrap input[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about {
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 600;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about_value .info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .Entry_About {
+    width: 100vw;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Entry_About .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Entry_About .main_contents {
+    width: 100%;
+  }
+  .Entry_About .main_contents .Entry_information {
+    margin: 10px;
+    padding: 20px 5px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Entry_About .main_contents .Entry_information .title_wrap {
+    display: flex;
+  }
+  .Entry_About .main_contents .Entry_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Entry_About .main_contents .Entry_information .wrap {
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 5px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block span {
+    font-size: 12px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .submit_wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10px 5px 30px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .submit_wrap input[type='submit'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about {
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 600;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about_value {
+    margin: 0 10px;
+  }
+  .Entry_About .main_contents .Entry_information .wrap .block .about_value .info {
+    font-size: 14px;
+  }
+}

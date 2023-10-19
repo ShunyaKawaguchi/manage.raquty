@@ -1,0 +1,185 @@
+
+@media screen and (min-width: 960px) {
+    .Tournament_edit_information{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+        
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .basic_information{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .title_wrap{
+                    display: flex;
+
+                    .sub_title{
+                        margin: 0 10px;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+
+                    .block{
+                        margin: 2.5px;
+                        padding: 2.5px 10px;
+
+                        .submit_wrap{
+                            display: flex;
+                            justify-content: flex-end;
+                            margin: 20px 30px 10px 30px;
+
+                            input[type='submit']{
+                                padding: 10px 20px;
+                                border-radius: 5px;
+                                border: 1px solid #000;
+                                cursor: pointer;
+                            }
+                        }
+                        .about{
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 5px 0;
+                        }
+                        .about_value{
+                            margin: 0 20px;
+
+                            p{  
+                                font-size: 14px;
+                            }
+                            input[type='text']{
+                                padding: 5px;
+                                width: 100%;
+                            }
+                            input[type='date']{
+                                padding: 5px;
+                                width: 150px;
+                            }
+                            textarea{
+                                padding: 5px;
+                                width: 60%;
+                                height: 200px;
+                            }
+                            select{
+                                padding: 5px;
+                            }
+                            .venues_wrap{
+                                background-color: white;
+                                width: 30%;
+                                padding: 5px;
+                                max-height: 200px;
+                                overflow-y: scroll;
+                                border: 1px solid #000;
+
+                                .venue_option{
+                                    width: 90%;
+                                    font-size: 14px;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    }
+                            }
+                            #calendar {
+                                width: 200px; /* 幅を200pxに変更 */
+                                text-align: center;
+                                background-color: #fff;
+                                border: 1px solid #ccc;
+                                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+                                border-radius: 5px;
+                            }
+                            
+                            .header {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                background-color: #333;
+                                color: #fff;
+                                padding: 8px; /* パディングを8pxに変更 */
+                                border-top-left-radius: 5px;
+                                border-top-right-radius: 5px;
+                            }
+                            
+                            #prevMonth,
+                            #nextMonth {
+                                background-color: #555;
+                                color: #fff;
+                                border: none;
+                                padding: 4px 8px; /* パディングを4px上下、8px左右に変更 */
+                                cursor: pointer;
+                                font-size: 12px; /* 文字サイズを12pxに変更 */
+                                border-radius: 3px;
+                                outline: none;
+                            }
+                            
+                            #prevMonth:hover,
+                            #nextMonth:hover {
+                                background-color: #444;
+                            }
+                            
+                            h1 {
+                                margin: 0;
+                                font-size: 16px; /* 文字サイズを16pxに変更 */
+                            }
+                            
+                            table {
+                                width: 100%; /* カレンダー全体の幅を100%に変更 */
+                                border-collapse: collapse;
+                            }
+                            
+                            table th, table td {
+                                width: calc(100% / 7); /* 幅を均等に分割する */
+                                padding: 4px; /* パディングを4pxに変更 */
+                                text-align: center;
+                                border: 1px solid #ccc;
+                                font-size: 12px; /* 文字サイズを12pxに変更 */
+                            }
+                            
+                            table th {
+                                background-color: #f2f2f2;
+                                font-weight: bold;
+                            }
+                            
+                            table td {
+                                cursor: pointer;
+                                transition: background-color 0.3s ease;
+                            }
+                            
+                            table td.selected {
+                                background-color: #66a3ff;
+                            }
+
+                            table td.selected:hover {
+                                background-color: #66a3ff;
+                            }
+                            
+                            table td:hover {
+                                background-color: #f2f2f2;
+                            }
+                            
+                            .prev-month, .next-month {
+                                color: #ccc;
+                            }
+                            
+                            .prev-month:hover, .next-month:hover {
+                                background-color: transparent;
+                                color: #888;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {}
+@media screen and (max-width: 439px) {}

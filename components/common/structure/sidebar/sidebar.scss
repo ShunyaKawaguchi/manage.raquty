@@ -1,0 +1,189 @@
+.sidebar{
+    font-family: Inter;
+    position: relative;
+
+    .top{
+
+        .title{
+            font-family: Audiowide;
+        }
+    }
+    .notice{
+
+        .title{
+            font-family: Audiowide;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+.sidebar{
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+    box-shadow: 4px 0px 4px #ccc;
+    width: 275px;
+    height: 100vh;
+
+    .top_smartphone{
+        display: none;
+    }
+    .top{
+        margin: 30px;
+        margin-bottom: 10px; 
+        
+        .title{
+            margin: 20px 0;
+            font-size: 30px;
+            padding: 10px;
+            background-color: white;
+            border: 0.5px solid #000;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+
+            .admin{
+                text-align: right;
+            }
+        }
+        .message{
+            margin: 20px 0;
+            padding: 10px;
+            font-size: 14px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+            background-color: #F0F0F0;
+
+            .name{
+                text-align: center;
+            }
+            .group{
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 12px;
+            }
+            .san{
+                text-align: right;
+            }
+        }
+        .logout{
+            text-align: right;
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
+    .notice{
+        padding: 10px 0 20px 0;
+
+        .title{
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        p{
+            margin: 10px;
+            padding: 10px;
+            font-size: 12px;
+            background-color: white;
+            overflow-y: scroll;
+        }
+    }
+    .menu{
+        padding: 10px 0 20px 0;
+
+        .title{
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            font-weight: 600;
+            letter-spacing: 5px;
+        }
+        ul{
+            margin:20px 30px;
+
+          li{
+            border-bottom: 0.5px solid #000; 
+            transition: background 0.3s ease;
+
+            a{
+                display: block;
+                color: #333333;
+                padding: 5px 10px;
+            }
+          }
+          li:hover{
+            background: #CCCCCC;
+            border-radius: 5px;
+            }
+        }
+    }
+}
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {
+    .sidebar{
+        background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        box-shadow: 4px 0px 4px #ccc;
+        width: 100vw;
+    
+        .top{
+            display: none;
+        }
+        .top_smartphone{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .title{
+                font-family: Audiowide;
+                font-size: 25px;
+                padding: 10px 20px;
+            }
+            .logout{
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+            
+        }
+        .notice{
+            display: none;
+        }
+        .menu{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 439px) {
+    .sidebar{
+        background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        box-shadow: 4px 0px 4px #ccc;
+        width: 100vw;
+    
+        .top{
+            display: none;
+        }
+        .top_smartphone{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .title{
+                font-family: Audiowide;
+                font-size: 25px;
+                padding: 10px 20px;
+            }
+            .logout{
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+            
+        }
+        .notice{
+            display: none;
+        }
+        .menu{
+            display: none;
+        }
+    }
+}

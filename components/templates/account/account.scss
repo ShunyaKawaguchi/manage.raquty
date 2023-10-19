@@ -1,0 +1,142 @@
+
+
+@media screen and (min-width: 960px) {
+    .Account{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .group_info{
+            margin: 20px;
+            padding: 10px;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+
+            .title{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .info{
+                margin: 10px;
+
+                .name{
+                    padding: 3px 5px;
+                    font-size: 14px;
+                }
+            }
+            .notice{
+                padding: 3px 5px;
+                font-size: 12px;
+                width: 100%;
+            }
+        }
+        .user{
+            margin: 20px;
+            padding: 10px;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+
+            .title{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .your_account{
+                margin: 20px 10px;
+
+                .sub_title{
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .detail{
+                    display: flex;
+                    font-size: 14px;
+
+                    .value{
+                        width: 50%;
+
+                        input{
+                            width: 80%;
+                            padding: 5px;
+                        }
+                    }
+                }
+                input[type='submit']{
+                    margin: 20px 0;
+                }
+            }
+            .user_list{
+                margin: 20px 10px;
+
+                .sub_title{
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                table{
+                    border-collapse: collapse;
+                    font-size: 14px;
+
+                    th, td {
+                        border: 1px solid #ccc;
+                        text-align: left;
+                        padding: 8px;
+                        text-align: center;
+                    }
+                    
+                    th:first-child, td:first-child {
+                        width: 30px;
+                    }
+                    
+                    th:nth-child(2), td:nth-child(2) {
+                        width: 250px;
+                    }
+                    
+                    th:nth-child(3), td:nth-child(3) {
+                        width: 450px;
+                    }
+                    
+                    th:nth-child(4), td:nth-child(4) {
+                        width: 150px;
+                    }
+                }
+                .change_user{
+                    margin:  10px 3px;
+                    padding: 5px;
+                    font-size: 14px;
+
+                    select{
+                        padding: 5px;
+                    }
+                }
+            }
+            .New_user{
+                margin: 20px 10px;
+
+                .sub_title{
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .format{
+                    display: flex;
+                    font-size: 14px;
+
+                    .value{
+                        width: 33%;
+
+                        input,select{
+                            width: 90%;
+                            padding: 5px;
+                        }
+                    }
+                }
+                input[type='submit']{
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {}
+@media screen and (max-width: 439px) {}

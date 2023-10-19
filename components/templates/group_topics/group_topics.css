@@ -1,0 +1,68 @@
+@media screen and (min-width: 960px) {
+  .Group_Topics {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Group_Topics .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Group_Topics .main_contents .Topics_information {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Group_Topics .main_contents .Topics_information .title_wrap {
+    font-weight: 600;
+  }
+  .Group_Topics .main_contents .Topics_information .title_wrap form {
+    display: flex;
+  }
+  .Group_Topics .main_contents .Topics_information .title_wrap form .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Group_Topics .main_contents .Topics_information .title_wrap form .sub_title input[type='submit'] {
+    padding: 5px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap {
+    margin: 15px 10px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table {
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th, .Group_Topics .main_contents .Topics_information .wrap table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:first-child, .Group_Topics .main_contents .Topics_information .wrap table td:first-child {
+    width: 30px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(2), .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(2) {
+    width: 500px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(2) a, .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(2) a {
+    color: #0077cc;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(2) a:hover, .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(2) a:hover {
+    color: #0055aa;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(3), .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(3) {
+    width: 250px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(4), .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(4) {
+    width: 80px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(5), .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(5) {
+    width: 80px;
+  }
+  .Group_Topics .main_contents .Topics_information .wrap table th:nth-child(6), .Group_Topics .main_contents .Topics_information .wrap table td:nth-child(6) {
+    width: 70px;
+  }
+}

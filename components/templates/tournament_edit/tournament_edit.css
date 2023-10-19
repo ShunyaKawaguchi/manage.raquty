@@ -1,0 +1,564 @@
+@media screen and (min-width: 960px) {
+  .Tournament_View {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_View .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Publishing_Settings {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Publishing_Settings .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value p {
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+  .Tournament_View .main_contents .basic_information {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .basic_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .basic_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .basic_information .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about_value p {
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .event_information {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .event_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .event_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap {
+    margin: 10px;
+  }
+  .Tournament_View .main_contents .event_information .wrap p {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value {
+    width: 10%;
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 {
+    width: 15%;
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .Documents {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Documents .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .Documents .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .Documents .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about_value {
+    font-size: 14px;
+    margin: 0 20px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about_value a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+}
+
+@media screen and (max-width: 959px) and (min-width: 440px) {
+  .Tournament_View {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_View .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Publishing_Settings {
+    margin: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Publishing_Settings .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value p {
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+  .Tournament_View .main_contents .basic_information {
+    margin: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .basic_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .basic_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .basic_information .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about_value {
+    margin: 0 20px;
+    width: 100%;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about_value p {
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .event_information {
+    margin: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .event_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .event_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap {
+    margin: 10px;
+  }
+  .Tournament_View .main_contents .event_information .wrap p {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value {
+    width: 10%;
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 {
+    width: 15%;
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .Documents {
+    margin: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Documents .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .Documents .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .Documents .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about_value {
+    font-size: 14px;
+    margin: 0 20px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about_value a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .Tournament_View {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_View .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Publishing_Settings {
+    margin: 5px;
+    padding: 20px 5px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Publishing_Settings .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap {
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 5px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value p {
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .Publishing_Settings .wrap .block .about_value a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+  .Tournament_View .main_contents .basic_information {
+    margin: 5px;
+    padding: 20px 5px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+    width: calc(100vw - 20px);
+  }
+  .Tournament_View .main_contents .basic_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .basic_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .basic_information .wrap {
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 5px;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_View .main_contents .basic_information .wrap .block .about_value p {
+    font-size: 14px;
+    white-space: normal;
+  }
+  .Tournament_View .main_contents .event_information {
+    margin: 5px;
+    padding: 20px 5px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .event_information .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .event_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap {
+    margin: 10px 0;
+  }
+  .Tournament_View .main_contents .event_information .wrap p {
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_1 .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 .mini_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .event_information .wrap .block .about_value_2 .mini_value {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .Documents {
+    margin: 5px;
+    padding: 20px 5px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_View .main_contents .Documents .title_wrap {
+    display: flex;
+  }
+  .Tournament_View .main_contents .Documents .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_View .main_contents .Documents .wrap {
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 5px;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about_value {
+    font-size: 14px;
+    margin: 0 20px;
+    padding: 5px;
+  }
+  .Tournament_View .main_contents .Documents .wrap .block .about_value a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+}

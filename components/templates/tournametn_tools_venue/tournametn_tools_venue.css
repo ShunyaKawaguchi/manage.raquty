@@ -1,0 +1,68 @@
+@media screen and (min-width: 960px) {
+  .Tools {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tools .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tools .main_contents .Venue_Select {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tools .main_contents .Venue_Select .title_wrap {
+    display: flex;
+  }
+  .Tools .main_contents .Venue_Select .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tools .main_contents .Venue_Select .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block span {
+    font-size: 12px;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .submit_wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 10px 30px;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .submit_wrap input[type='submit'] {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .about {
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 600;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .about_value {
+    margin: 15px 20px;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .about_value select {
+    width: 150px;
+    padding: 5px;
+    margin: 5px 15px;
+    text-align: center;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .about_value p {
+    font-size: 14px;
+  }
+  .Tools .main_contents .Venue_Select .wrap .block .about_value input[type='submit'] {
+    margin: 20px 0;
+  }
+}

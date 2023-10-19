@@ -1,0 +1,81 @@
+@media screen and (min-width: 960px) {
+  .Event_Edit {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Event_Edit .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Event_Edit .main_contents .Event_information {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Event_Edit .main_contents .Event_information .title_wrap {
+    display: flex;
+  }
+  .Event_Edit .main_contents .Event_information .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Event_Edit .main_contents .Event_information .wrap {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block {
+    margin: 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block span {
+    font-size: 12px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block .submit_wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 10px 30px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block .submit_wrap input[type='submit'] {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block .about {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block label {
+    font-size: 14px;
+    margin: 5px 10px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block input[type='text'] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 10px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block input[type='number'] {
+    width: 60px;
+    padding: 5px;
+    margin: 5px 10px;
+    text-align: center;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block textarea {
+    padding: 5px;
+    width: 60%;
+    height: 200px;
+  }
+  .Event_Edit .main_contents .Event_information .wrap .block select {
+    width: 100px;
+    padding: 5px;
+    margin: 5px 10px;
+    text-align: center;
+  }
+}

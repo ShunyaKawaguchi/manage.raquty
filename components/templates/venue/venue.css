@@ -1,0 +1,49 @@
+@media screen and (min-width: 960px) {
+  .Venue_List {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Venue_List .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Venue_List .main_contents .venue_listing {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Venue_List .main_contents .venue_listing .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    vertical-align: middle;
+  }
+  .Venue_List .main_contents .venue_listing .wrap {
+    margin: 10px;
+  }
+  .Venue_List .main_contents .venue_listing .wrap .block table {
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .Venue_List .main_contents .venue_listing .wrap .block table th, .Venue_List .main_contents .venue_listing .wrap .block table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  .Venue_List .main_contents .venue_listing .wrap .block table th:first-child, .Venue_List .main_contents .venue_listing .wrap .block table td:first-child {
+    width: 30px;
+  }
+  .Venue_List .main_contents .venue_listing .wrap .block table th:nth-child(2), .Venue_List .main_contents .venue_listing .wrap .block table td:nth-child(2) {
+    width: 400px;
+  }
+  .Venue_List .main_contents .venue_listing .wrap .block table th:nth-child(3), .Venue_List .main_contents .venue_listing .wrap .block table td:nth-child(3) {
+    width: 550px;
+  }
+  .Venue_List .main_contents .venue_listing .wrap .block table th:nth-child(4), .Venue_List .main_contents .venue_listing .wrap .block table td:nth-child(4) {
+    width: 80px;
+  }
+}

@@ -1,0 +1,123 @@
+
+@media screen and (min-width: 960px) {
+    .Venue{
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7);
+
+        .page_title{
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+        }
+        .main_contents{
+
+            .Add_venue{
+                margin: 20px;
+                padding: 20px 10px;    
+                background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+                
+                .sub_title{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .wrap{
+                    margin: 10px;
+                    border: 1px solid #ccc;
+
+                    .block{
+                        
+                        form{
+                            display: flex;
+                            flex-wrap: wrap;
+
+                            .half{
+                                width: 50%;
+
+                                .wrapping{
+                                    width: 100%;
+                                    margin: 20px 10px;
+
+                                    label{
+                                        font-size: 14px;
+                                        margin: 5px 10px;
+                                    }
+                                    input[type='text']{
+                                        width: 80%;
+                                        padding: 5px;
+                                        margin: 5px 10px;
+                                    }
+                                    textarea{
+                                        width: 80%;
+                                        height: 80px;
+                                        padding: 5px;
+                                        margin: 5px 10px;
+                                    }
+                                    #venue_notice{
+                                        margin: 0 10px;
+                                        padding: 5px;
+                                        font-size: 14px;
+                                    }
+                                }
+                                #preview{
+                                    margin: 40px 20px 20px 20px;
+                                    height: 300px;
+                                    
+                                    #map-iframe{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                            .all{
+                                width: 100%;
+                                display: flex;
+                                justify-content: flex-end;
+
+                                input{
+                                    margin: 10px 20px;
+                                    padding: 5px;
+                                }
+                            }
+                            .court_setting{
+                                width: 100%;
+                                display: flex;
+                                justify-content:flex-start;
+
+                                .wrapping{
+                                    width: 100%;
+                                    margin: 20px 10px;
+
+                                    .about{
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                    }
+
+                                    .title{
+                                        font-size: 16px;
+                                        margin: 5px 10px;
+                                    }
+
+                                    label{
+                                        margin-left: 30px;
+                                        font-size: 14px;
+                                    }
+                                    input[type='number']{
+                                        width: 60px;
+                                        text-align: center;
+                                        padding: 5px;
+                                        margin: 5px 10px;
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 959px) and (min-width: 440px) {}
+@media screen and (max-width: 439px) {}

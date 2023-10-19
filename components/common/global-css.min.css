@@ -1,0 +1,1 @@
+body{display:flex;margin:0}a{text-decoration:none;color:#000}@media screen and (min-width: 960px){.main{width:calc(100vw - 275px);overflow-y:scroll;height:100vh}}@media screen and (max-width: 959px) and (min-width: 440px){body{flex-wrap:wrap}}@media screen and (max-width: 439px){body{flex-wrap:wrap}}

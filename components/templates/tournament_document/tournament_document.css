@@ -1,0 +1,66 @@
+@media screen and (min-width: 960px) {
+  .Tournament_Document {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Document .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Document .main_contents .Documents {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Document .main_contents .Documents .title_wrap {
+    display: flex;
+  }
+  .Tournament_Document .main_contents .Documents .title_wrap .sub_title {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Tournament_Document .main_contents .Documents .wrap {
+    margin: 10px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block {
+    margin: 15px 2.5px;
+    padding: 2.5px 10px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value {
+    margin: 0 20px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value table th, .Tournament_Document .main_contents .Documents .wrap .block .about_value table td {
+    padding: 4px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 12px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value th:first-child, .Tournament_Document .main_contents .Documents .wrap .block .about_value td:first-child {
+    width: 250px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value th:first-child a, .Tournament_Document .main_contents .Documents .wrap .block .about_value td:first-child a {
+    color: blue;
+    border-bottom: 1px solid blue;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value th:nth-child(2), .Tournament_Document .main_contents .Documents .wrap .block .about_value td:nth-child(2) {
+    width: 50px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value th:nth-child(3), .Tournament_Document .main_contents .Documents .wrap .block .about_value td:nth-child(3) {
+    width: 100px;
+  }
+  .Tournament_Document .main_contents .Documents .wrap .block .about_value th:nth-child(4), .Tournament_Document .main_contents .Documents .wrap .block .about_value td:nth-child(4) {
+    width: 50px;
+  }
+}
