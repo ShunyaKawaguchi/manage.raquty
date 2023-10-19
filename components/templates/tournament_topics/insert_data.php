@@ -21,7 +21,7 @@ if ($stmt) {
 
         //ログ追加
         $log_after = 'topics_id:'.$topics_id;
-        add_log('edit_entry' , h($_POST['tournament_id']), null , null , $log_after);
+        add_log('new_topics' , h($_POST['tournament_id']), null , null , $log_after);
 
         header("Location: " . home_url('/Tournament/View/Topics/Edit?tournament_id='.h($_POST['tournament_id']).'&topics_id='.$topics_id));
     } else {
