@@ -254,21 +254,23 @@ function insert_user_log($user_id, $event_id) {
 
     $checkStmt->close();
 
-    // データを挿入
-    $insertQuery = "INSERT INTO entry_event (user_id, event_id) VALUES (?, ?)";
-    $stmt = $user_access->prepare($insertQuery);
+    if(!empty($user_id)) {
+        // データを挿入
+        $insertQuery = "INSERT INTO entry_event (user_id, event_id) VALUES (?, ?)";
+        $stmt = $user_access->prepare($insertQuery);
 
-    if (!$stmt) {
-        die('データベース接続エラーが発生しました。管理者に連絡してください。');
+        if (!$stmt) {
+            die('データベース接続エラーが発生しました。管理者に連絡してください。');
+        }
+
+        $stmt->bind_param("ii", $user_id, $event_id);
+
+        if ($stmt->execute()) {
+            // データ挿入完了
+        } else {
+            die('データベース接続エラーが発生しました。管理者に連絡してください。');
+        }
+
+        $stmt->close();
     }
-
-    $stmt->bind_param("ii", $user_id, $event_id);
-
-    if ($stmt->execute()) {
-        // データ挿入完了
-    } else {
-        die('データベース接続エラーが発生しました。管理者に連絡してください。');
-    }
-
-    $stmt->close();
 }

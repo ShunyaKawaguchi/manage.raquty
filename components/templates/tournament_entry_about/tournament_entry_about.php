@@ -43,7 +43,11 @@ alert('update_entry');
                         <?php $user_data = get_player_data($player_info['user1_id']);?>
                         <?php if($user_data == null){$player1_id = '登録なし';}else{$player1_id = $user_data['player_id'];};?>
                         <div class="info">選手ID&nbsp;:&nbsp;<?php echo $player1_id ?></div>
-                        <div class="info">選手名&nbsp;:&nbsp;<?php echo $player_info['user1_name'] .'&nbsp;(&nbsp;'.$user_data['user_name_kana'].'&nbsp;)&nbsp;'?></div>
+                        <?php if(!$user_data == null):?>
+                            <div class="info">選手名&nbsp;:&nbsp;<?php echo $player_info['user1_name'] .'&nbsp;(&nbsp;'.$user_data['user_name_kana'].'&nbsp;)&nbsp;'?></div>
+                        <?php else:?>
+                            <div class="info">選手名&nbsp;:&nbsp;<?php echo $player_info['user1_name']?></div>
+                        <?php endif;?>
                         <div class="info">所&nbsp;&nbsp;&nbsp;属&nbsp;:&nbsp;<?php echo $player_info['user1_belonging'] ?></div>
                         <?php if(!empty($user_data['user_mail'])){ $user_email = $user_data['user_mail']; }else{ $user_email = '登録なし';}?>
                         <div class="info">連絡先&nbsp;:&nbsp;<?php echo $user_email ?></div>
