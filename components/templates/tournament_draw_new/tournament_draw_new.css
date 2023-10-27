@@ -1,0 +1,189 @@
+#New {
+  display: inline-block;
+}
+
+@media screen and (min-width: 960px) {
+  .Tournament_Draw {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Draw .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Draw .main_contents .New_child_event {
+    margin: 20px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Draw .main_contents .New_child_event .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form input[type='text'] {
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form select {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form input[type='number'] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form .submit_wrap {
+    width: 100%;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form .submit_wrap input[type='submit'] {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 959px) and (min-width: 440px) {
+  .Tournament_Draw {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Draw .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Draw .main_contents .New_child_event {
+    margin: 20px 10px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Draw .main_contents .New_child_event .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form input[type='text'] {
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form select {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form input[type='number'] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form .submit_wrap {
+    width: 100%;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form .submit_wrap input[type='submit'] {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .Tournament_Draw {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .Tournament_Draw .page_title {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Draw .main_contents .New_child_event {
+    margin: 20px 5px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+  }
+  .Tournament_Draw .main_contents .New_child_event .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form input[type='text'] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form input[type='number'] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form .submit_wrap {
+    width: 100%;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .Tournament_Draw .main_contents .New_child_event .about .about_value form .submit_wrap input[type='submit'] {
+    padding: 5px 10px;
+  }
+}

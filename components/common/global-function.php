@@ -419,3 +419,37 @@ function alert($alert_name){
         unset($_SESSION["$alert_name"]);
         }
 }
+
+function raquty_nonce_check($version = ''){
+    $nonce_number = 'raquty_nonce'.$version;
+    $session_nonce_number = 'nonce_id'.$version;
+    if(isset($_SESSION[$session_nonce_number]) && isset($_POST[$nonce_number])){
+        if($_SESSION[$session_nonce_number] == $_POST[$nonce_number]){
+            return true;
+        }else{
+            return false;
+        }
+    }else{
+        return false;
+    }
+}
+
+function check_child_event_existance($tournament_id, $child_event_id) {
+    $sql = "SELECT * FROM child_event_list WHERE id = ? AND tournament_id = ?";
+    global $cms_access; 
+    $stmt = $cms_access->prepare($sql);
+    $stmt->bind_param("ii", $child_event_id, $tournament_id); 
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
+    $stmt->close();
+
+    if ($row) {
+        //該当のchild_eventが加盟団体のものかどうかは、check_tournament_existance()で検証済
+        return $row; 
+    } else {
+        $_SESSION['draw']='該当のドローが見当たりません。';
+        header("Location: " . home_url('Tournament/View/Draw?tournament_id=') . $_GET['tournament_id']);
+        exit; 
+    }
+}
