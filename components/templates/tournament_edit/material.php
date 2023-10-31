@@ -247,7 +247,25 @@ function publish_tournament_publish($tournament_data){
     </div>
     <?php
     }else{
-        echo '<p style="padding:5px 30px;font-size:14px;">現在、大会公開中です。最初のエントリーが発生したため、大会の削除はできません。</p>';
+        if ($tournament_data['post_status'] == 'publish') {
+            $post_status = '公開中';
+                $now = date('Y-m-d');
+                if ($tournament_data['entry_start'] > $now) {
+                    $entry_status = '受付前';
+                } elseif ($tournament_data['entry_start'] <= $now && $tournament_data['entry_end'] >= $now) {
+                    $entry_status = '受付中';
+                } else {
+                    $entry_status = '締切';
+                }
+        } else {
+            $post_status = '未公開';
+            $entry_status = "受付前";
+        } ?>
+       <p style="padding:5px 30px;font-size:14px;">
+            <span style="font-weight: 600;">エントリー受付状況 : <?php echo $entry_status ?></span><br>
+            <span>現在、大会公開中です。最初のエントリーが発生したため、大会の削除はできません。<span>
+        </p>
+<?php
     }
 
 }

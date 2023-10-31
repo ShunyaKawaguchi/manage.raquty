@@ -453,3 +453,37 @@ function check_child_event_existance($tournament_id, $child_event_id) {
         exit; 
     }
 }
+
+function check_venue_existance($venue_id='', $tournament_id=''){
+    if(isset($_GET['tournament_id'])){
+      if(!check_tournament_existance( $tournament_id )){
+        $_SESSION['operation_err']='該当のトーナメントは存在しません。';?>
+        <script>window.location.href = home_url('Tournament/View/Operation/Select_venue?tournament_id=')<?= h($_GET['tournament_id']) ?></script>
+<?php  }
+    }else{
+    $_SESSION['operation_err']='トーナメントが選択されていません。';?>
+    <script>window.location.href = home_url('Tournament/View/Operation/Select_venue?tournament_id=')<?= h($_GET['tournament_id']) ?></script>
+<?php
+}
+      
+      
+    if(isset($_GET['venue_id'])){
+        $sql = "SELECT * FROM venues WHERE tournament_id = ? AND template_id = ?";
+        global $cms_access;
+        $stmt = $cms_access->prepare($sql);
+        $stmt->bind_param("ii", $tournament_id,$venue_id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        if ($result->num_rows === 1) {
+            return true;
+        }else{
+            $_SESSION['operation_err']='不正な会場です。';?>
+            <script>window.location.href = home_url('Tournament/View/Operation/Select_venue?tournament_id=')<?= h($_GET['tournament_id']) ?></script>
+<?php   }
+      }else{
+        $_SESSION['operation_err']='会場選択画面にリダイレクトします。';
+        ?>
+        <script>window.location.href = home_url('Tournament/View/Operation/Select_venue?tournament_id=')<?= h($_GET['tournament_id']) ?></script>
+<?php      }
+}

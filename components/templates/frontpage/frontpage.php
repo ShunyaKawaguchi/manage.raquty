@@ -6,7 +6,7 @@ require_once(dirname(__FILE__).'/../../common/structure/sidebar/sidebar.php') ;
 <div class="frontpage">
     <div class="page_title">メインメニュー</div>
     <div class="menu">
-        <a href="<?php echo home_url('Tournament') ?>" class="single_menu">
+        <a href="<?= home_url('Tournament') ?>" class="single_menu">
             <div class="title">大会管理</div>
             <ul>
                 <li>新規大会登録</li>
@@ -14,14 +14,7 @@ require_once(dirname(__FILE__).'/../../common/structure/sidebar/sidebar.php') ;
                 <li>実施済大会の管理</li>
             </ul>
         </a>
-        <a href="" class="single_menu">
-            <div class="title">大会運営</div>
-            <ul>
-                <li>ドローの作成</li>
-                <li>選手の受付</li>
-                <li>大会当日の運営</li>
-            </ul>
-        </a>
+        
         <a href="<?php echo home_url('Topics') ?>" class="single_menu">
             <div class="title">団体記事</div>
             <ul>

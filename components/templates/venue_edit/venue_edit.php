@@ -7,7 +7,7 @@ require_once(dirname(__FILE__).'/material.php');
 $nonce_id = raquty_nonce();
 //パラメーターで送られた大会IDが存在し、かつログイン中のグループが主催しているものなのか確認
 if(!empty($_GET['venue_id'])){
-    $venue_data = check_venue_existance( $_GET['venue_id'] );
+    $venue_data = check_venue_existance2( $_GET['venue_id'] );
 }else{
     header("Location: " . home_url('Tournament/Venue'));
 }

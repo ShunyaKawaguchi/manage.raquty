@@ -1,0 +1,32 @@
+.OOP{
+    width: 100%;
+
+    .page_title{
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
+    }
+    .wrap{
+        display: flex;
+
+        .main{
+            width: 80%;
+            background-color: aqua;
+        }
+        .suggest{
+            width: 20%;
+            background-color: aquamarine;
+        }
+        .courts{
+            display: flex;
+            flex-wrap: wrap;
+
+            .court{
+                width: 20%;
+                background-color: brown;
+            }
+        }
+    }
+    
+}

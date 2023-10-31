@@ -4,6 +4,7 @@
     background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
   .Tournament_Edit_Menu .half {
     display: flex;
@@ -14,7 +15,7 @@
     font-weight: 600;
   }
   .Tournament_Edit_Menu .half:first-child {
-    width: 60%;
+    width: 100%;
   }
   .Tournament_Edit_Menu .half:first-child .wrap {
     display: flex;
@@ -30,16 +31,7 @@
   .Tournament_Edit_Menu .half:first-child .wrap .menu:hover {
     border-bottom: 1px solid #ccc;
   }
-  .Tournament_Edit_Menu .half:nth-child(2) {
-    width: 40%;
-  }
-  .Tournament_Edit_Menu .half:nth-child(2) .wrap {
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-  }
 }
-
 @media screen and (max-width: 959px) and (min-width: 440px) {
   .Tournament_Edit_Menu {
     padding: 10px 5px;
@@ -83,7 +75,6 @@
     margin: 0 10px;
   }
 }
-
 @media screen and (max-width: 439px) {
   .Tournament_Edit_Menu {
     padding: 10px 0;
@@ -126,4 +117,4 @@
     justify-content: center;
     margin: 0 10px;
   }
-}
+}/*# sourceMappingURL=tournament_edit_menu.css.map */

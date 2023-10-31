@@ -5,6 +5,7 @@
         background: linear-gradient(to bottom, #F5F5F5, #E0E0E0);
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
 
         .half{
             display: flex;
@@ -18,7 +19,7 @@
         }
 
         .half:first-child {
-            width: 60%;
+            width: 100%;
 
             .wrap{
                 display: flex;
@@ -35,16 +36,6 @@
                 .menu:hover{
                     border-bottom:1px solid #ccc ;
                 }
-            }
-        }
-        
-        .half:nth-child(2) {
-            width: 40%;
-
-            .wrap{
-                display: flex;
-                justify-content: center;
-                margin: 0 10px;
             }
         }
     }

@@ -3,7 +3,8 @@
 require_once(dirname(__FILE__).'/../../common/structure/sidebar/sidebar.php') ;
 //必要機能呼び出し
 require_once(dirname(__FILE__).'/material.php') ;
-
+//アラート
+alert('operation_err');
 ?>
 
 <div class="Tournament_List">

@@ -59,7 +59,7 @@ if($_SESSION['nonce_id']==$_POST['raquty_nonce']){
 require_once(dirname(__FILE__).'/../../../manage-raquty-cms-system/disconnect-database.php');
 
 function update_venue_detail($venue_name,$venue_address,$venue_map){
-    $venue_data = check_venue_existance( h($_POST['template_id']) );
+    $venue_data = check_venue_existance2( h($_POST['template_id']) );
     
     if($venue_data['court_number'] == $_POST['number_of_court']){
         //コート面数が変更されない

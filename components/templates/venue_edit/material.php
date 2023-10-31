@@ -1,6 +1,6 @@
 <?php
 //会場が存在するか、リクエストされた会場IDはgroup_idのテンプレートか
-function check_venue_existance( $venue_id ){
+function check_venue_existance2( $venue_id ){
     $sql = "SELECT * FROM venues WHERE template_id = ?";
     global $organizations_access;
     $stmt = $organizations_access->prepare($sql);
