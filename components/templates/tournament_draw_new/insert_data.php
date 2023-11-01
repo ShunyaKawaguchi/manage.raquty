@@ -23,6 +23,11 @@ if(!raquty_nonce_check(2)){
         $upper_capacity = pow(2, $upper_exponent);
         $status = 0;
 
+        //総当たりだった時にDBに入れる人数を変更
+        if($event_type == 2){
+            $upper_capacity = $capacity;
+        }
+
 
 
         $sql = 'INSERT INTO child_event_list (tournament_id, event_id, child_event_name,capacity , event_type, status) VALUES (? , ? , ?, ?, ?, ?)';

@@ -3,6 +3,7 @@
 // require_once(dirname(__FILE__).'/../../common/structure/sidebar/sidebar.php') ;
 //必要機能呼び出し
 require_once(dirname(__FILE__).'/material.php') ;
+require_once(dirname(__FILE__).'/round_robin_material.php') ;
 //セキュリティ
 $nonce_id2 = raquty_nonce2() ;
 //パラメーターで送られた大会IDが存在し、かつログイン中のグループが主催しているものなのか確認
@@ -39,9 +40,17 @@ alert('change_status');
                 <?php import_player_data($child_event_data['event_id'],$child_event_data['capacity'],$nonce_id2,$dont_ids); ?>
             </div>
         </div>
-        <div class="tournament" id="tournament">
-        <?php generate_tournament($child_event_data['capacity'],$event_data['type'],$nonce_id2);?>
-        </div>
+        <?php 
+            if($child_event_data['event_type'] == 1){
+                echo '<div class="tournament" id="tournament">';
+                    generate_tournament($child_event_data['capacity'],$event_data['type'],$nonce_id2);
+                echo '</div>';
+            }elseif( $child_event_data['event_type'] == 2){
+                echo '<div class="RoundRobin" id="RoundRobin">';
+                    generate_RoundRobin($child_event_data['capacity'],$event_data['type'],$nonce_id2);
+                echo '</div>';
+            }
+        ?>
         <form id="PublishStatus" method="post" action="/components/templates/tournament_draw_edit/update_status.php">
             <input type="hidden" name="child_event_id" value="<?php echo $child_event_data['id'];?>">
             <input type="hidden" name="tournament_id" value="<?php echo $_GET['tournament_id'];?>">
@@ -53,9 +62,9 @@ alert('change_status');
             } ?>
             <div class="publish">
                 <?php 
-                if($child_event_data['status'] === 0){
+                if($child_event_data['status'] == 0){
                     echo '<button class="button publish" id="publish" value="1">ドロー公開</button>';
-                } elseif($child_event_data['status'] === 1){
+                } elseif($child_event_data['status'] == 1){
                     echo '<button class="button publish" id="draft" value="0">ドロー非公開</button>';
                 }
                 ?>

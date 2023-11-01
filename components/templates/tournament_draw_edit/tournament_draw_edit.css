@@ -1,5 +1,10 @@
+@charset "UTF-8";
 #New {
   display: inline-block;
+}
+
+.main {
+  font-family: Inter;
 }
 
 .bottom {
@@ -90,7 +95,7 @@
   font-size: 12px;
 }
 
-.main_contents .tournament table tr, .main_contents .tournament table td {
+.main_contents .tournament table th, .main_contents .tournament table td {
   width: 90px;
   height: 30px;
   margin: 0;
@@ -99,6 +104,9 @@
 
 .main_contents .tournament table .player_data {
   display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .main_contents .tournament table .player_section {
@@ -112,6 +120,68 @@
 }
 
 .main_contents .tournament table .player_section form input[type='submit'] {
+  font-size: 12px;
+  margin-right: 10px;
+  border: none;
+}
+
+.main_contents .RoundRobin {
+  width: calc(75% - 130px);
+  height: calc(100vh - 96px);
+  overflow-y: scroll;
+  overflow-x: auto;
+  /* 横スクロールを有効にする */
+  margin: 30px 50px;
+  margin-right: 0;
+}
+
+.main_contents .RoundRobin table {
+  border-collapse: separate;
+  font-size: 12px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.main_contents .RoundRobin td, .main_contents .RoundRobin th {
+  width: 250px;
+  height: 30px;
+  margin: 0;
+  padding: 10px;
+  border: 0.5px solid #000;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+}
+
+.main_contents .RoundRobin .Non {
+  background-color: #F5F5F5;
+}
+
+.main_contents .RoundRobin .player_section_wrap {
+  display: table-cell;
+}
+
+.main_contents .RoundRobin .player_section_wrap .player_section {
+  display: flex;
+  align-items: center;
+}
+
+.main_contents .RoundRobin .player_section_wrap .player_section .player_data {
+  white-space: nowrap;
+  overflow: scroll;
+  display: inline-block;
+}
+
+.main_contents .RoundRobin .player_section_wrap .player_section span {
+  display: inline;
+  margin-right: 10px;
+}
+
+.main_contents .RoundRobin .player_section_wrap .player_section form {
+  display: inline-block;
+}
+
+.main_contents .RoundRobin .player_section_wrap .player_section form input[type='submit'] {
   font-size: 12px;
   margin-right: 10px;
   border: none;

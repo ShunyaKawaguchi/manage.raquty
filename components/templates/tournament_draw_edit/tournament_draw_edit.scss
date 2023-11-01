@@ -2,6 +2,10 @@
     display: inline-block;
 }
 
+.main{
+    font-family: Inter;
+}
+
 .bottom{
     border-bottom: 1px solid #000;
 }
@@ -85,7 +89,7 @@
             border-collapse: collapse;
             font-size: 12px;
 
-            tr,td{
+            th,td{
                 width: 90px;
                 height: 30px;
                 margin: 0;
@@ -93,6 +97,9 @@
             }
             .player_data{
                 display:inline-block;
+                white-space:nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
             }
             .player_section{
                 width: 300px;
@@ -113,6 +120,65 @@
             }
         }
     }
+    .RoundRobin {
+        width: calc(75% - 130px);
+        height: calc(100vh - 96px);
+        overflow-y: scroll;
+        overflow-x: auto; /* 横スクロールを有効にする */
+        margin: 30px 50px;
+        margin-right: 0;
+        
+    
+        table {
+            border-collapse: separate;
+            font-size: 12px;
+            width: 100%;
+            table-layout: fixed;
+        }
+    
+        td, th {
+            width: 250px;
+            height: 30px;
+            margin: 0;
+            padding: 10px;
+            border: 0.5px solid #000;
+            text-align: center;
+            position: relative;
+            font-weight: 400;
+        }
+        .Non{
+            background-color: #F5F5F5;
+        }
+        .player_section_wrap{
+            display: table-cell;
+
+            .player_section{
+                display: flex;
+                align-items: center;
+
+                .player_data{
+                    white-space:nowrap;
+                    overflow:scroll;
+                    display: inline-block;
+
+                }
+                span{
+                    display: inline;
+                    margin-right: 10px;
+                }
+                form{
+                    display: inline-block;
+
+                    input[type='submit']{
+                        font-size: 12px;
+                        margin-right: 10px;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+    
     .button {
         position: absolute;
         width: 150px;
