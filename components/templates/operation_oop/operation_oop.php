@@ -4,6 +4,9 @@
     $tournament_data = check_tournament_existance( h($_GET['tournament_id']) );
     //アラート
     alert('OOP_Notice');
+
+    //oopメインコンテンツ読み込み
+    require_once(dirname(__FILE__).'/oop_material.php') ;
 ?>
 <div class="OOP">
     <div class="page_title">
@@ -15,7 +18,7 @@
         <div class="main">
             <!-- ここにオーダオブプレイを表示する -->
             <div class="courts">
-                <?php create_court(h($_GET['venue_id']));?>
+            <?php create_court(h($_GET['venue_id']));?>
             </div>
         </div>  
         <div class="suggest">
@@ -80,28 +83,6 @@
         }
     }
 
-    function create_court($venue_id){
-        $sql = "SELECT court_name FROM venues WHERE template_id = ?";
-        global $organizations_access; 
-        $stmt = $organizations_access->prepare($sql);
-        $stmt->bind_param("i", $venue_id); 
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $stmt->close();
-
-        if ($result->num_rows > 0) {
-            $row = $result->fetch_assoc();
-            $courts = explode(",", $row['court_name']); 
-
-            foreach( $courts as $court ) { ?>
-                <div class="court"><?=$court?></div>
-<?php       }
-        } else {
-            echo '';
-        }
-    }
-
-    
     //フッター呼び出し(フッター → /body → /html まで)
     require_once(dirname(__FILE__).'/../../common/structure/footer/footer.php') ;
 ?>

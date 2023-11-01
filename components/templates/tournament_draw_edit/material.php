@@ -37,7 +37,7 @@ function generate_tournament($num,$type,$nonce_id){
                                 echo '<tr><td></td>';
                             }else{
                                 $player_data = getParticipants($draw_num,$_GET['tournament_id'],$_GET['child_event_id']);
-                                echo '<tr><td class="player_section bottom"><span>'.$draw_num.'</span>';
+                                echo '<tr><td class="player_section bottom"><span style="width:20px;text-align:center;">'.$draw_num.'</span>';
                                 if(!empty($player_data)){;?>
                                 <form action='/components/templates/tournament_draw_edit/draw_delete.php' method='post'>
                                     <input type="hidden" name="tournament_id" value="<?php echo $_GET['tournament_id'];?>">
@@ -57,6 +57,8 @@ function generate_tournament($num,$type,$nonce_id){
                                         <?php echo $player_data['user2_name'];?> ( <?php echo $player_data['user2_belonging'];?> )
                                     </div>
                                     <?php endif;
+                                }else{
+                                    echo '<div class="player_data" style="text-align:center;padding-left:50px;">bye</div>';
                                 }
                                 echo '</td>';
                             }
