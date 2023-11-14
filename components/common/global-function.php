@@ -454,6 +454,23 @@ function check_child_event_existance($tournament_id, $child_event_id) {
     }
 }
 
+function check_child_event_existance2($child_event_id) {
+    $sql = "SELECT * FROM child_event_list WHERE id = ?";
+    global $cms_access; 
+    $stmt = $cms_access->prepare($sql);
+    $stmt->bind_param("i", $child_event_id); 
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
+    $stmt->close();
+
+    if ($row) {
+        return $row; 
+    } else {
+        return false; 
+    }
+}
+
 function check_venue_existance($venue_id='', $tournament_id=''){
     if(isset($_GET['tournament_id'])){
       if(!check_tournament_existance( $tournament_id )){

@@ -15,7 +15,7 @@
 <div class="Operation_menu">
     <div class="page_title"><button style="margin-right:20px;" onclick="window.location.href='<?php echo home_url('Tournament/View?tournament_id=').h($_GET['tournament_id']) ; ?>'">&lt;&lt;</button>大会運営メニュー</div>
     <div class="menu">
-        <a href="<?php echo home_url('Tournament/View/Operation/OOP?tournament_id=').h($_GET['tournament_id']) ?>" class="single_menu">
+        <a href="https://manage.raquty.com/Tournament/View/Operation/OOP?tournament_id=1&venue_id=2" class="single_menu">
             <div class="title">OOP</div>
             <p>大会のオーダーオブプレイを更新できます。</p>
         </a>
